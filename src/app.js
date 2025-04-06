@@ -1,0 +1,11 @@
+import express from "express";
+import userRoute from "../src/routes/userRoutes.js";
+import cookieParser from "cookie-parser";
+import { errorMiddleware } from "./errorHandler/errorhandle.js";
+const app = express();
+//app.use("/blog");
+app.use(cookieParser());
+app.use(express.json());
+app.use("/user", userRoute);
+app.use(errorMiddleware);
+export default app;
