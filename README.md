@@ -20,8 +20,9 @@ A RESTful API built with **Express.js** and **PostgreSQL** for a simple blog pla
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+
+git clone https://github.com/Abhishek48Shah/Blog-website-.git
+cd Blog-website-
 npm install
 Set up environment variables
 
