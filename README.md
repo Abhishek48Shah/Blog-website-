@@ -71,8 +71,6 @@ Codes like a beast 👨‍💻
 
 Eats like a champ 🍛
 
-Dreams of changing the world 🌍
-
 💡 Future Features
 ✅ Pagination for blog list
 
